@@ -1,0 +1,23 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    background-image: url(img/fundo.png);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+}
+.logo{
+    height: 60px;
+    width: 60px;
+}
