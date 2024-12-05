@@ -64,4 +64,11 @@ header {
 .tituloMenu {
     font-size: 30px;
     margin-top: 40px;
+    margin-left: 90px;
+    margin-bottom: 60px;
+}
+
+span {
+    color: rgb(142, 18, 125);
+    font-weight: 700;
 }
