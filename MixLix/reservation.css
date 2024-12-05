@@ -75,7 +75,9 @@ form {
     display: flex;
     flex-direction: column;
     width: 1000px;
-    justify-self: center;
+   justify-self: center;
+    justify-content: center;
+    align-items: center;
 }
 input {
     width: 300px;
@@ -100,8 +102,16 @@ label{
     font-weight: 500;
     margin-top: 20px;
     margin-bottom: 3px;
+    margin-right: 190px;
 }
 
+.name{
+    margin-right: 255px;
+}
+
+.email{
+    margin-right: 255px;
+}
 
 button:hover {
     background-color: #FFF9FF; 
