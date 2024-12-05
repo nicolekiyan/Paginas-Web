@@ -4,6 +4,10 @@
     border: 0px;
 }
 
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 a {
     text-decoration: none;
     color: white;
@@ -55,4 +59,9 @@ header {
 }
 .ef:hover::after {
     width: 100%;
+}
+
+.tituloMenu {
+    font-size: 30px;
+    margin-top: 40px;
 }
