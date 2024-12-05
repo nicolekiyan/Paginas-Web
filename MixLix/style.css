@@ -56,3 +56,10 @@ header {
 .ef:hover::after {
     width: 100%;
 }
+.tituloInicio{
+    color: white;
+    font-size: 40px;
+    align-self: center;
+    justify-self: center;
+
+}
