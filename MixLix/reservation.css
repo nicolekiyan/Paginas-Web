@@ -70,6 +70,7 @@ header {
 .book {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 30px;
+    margin-bottom: 15px ;
 }
 form {
     display: flex;
