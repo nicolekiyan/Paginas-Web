@@ -62,10 +62,11 @@ header {
 }
 
 .tituloMenu {
-    font-size: 30px;
+    font-size: 35px;
     margin-top: 40px;
     margin-left: 90px;
     margin-bottom: 60px;
+    font-weight: 400;
 }
 
 span {
