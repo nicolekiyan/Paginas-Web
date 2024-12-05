@@ -7,19 +7,24 @@
 a {
     text-decoration: none;
     color: white;
+    justify-content: space-between;
+    margin: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
 
 header {
     background-image: url(img/fundo.png);
-    background-color: black;
     background-repeat: no-repeat; 
     background-size: cover;
     display: flex;
     flex-direction: row;
     height: 700px;
+    align-items: center;
+    justify-content: center;
 }
 .logo{
     height: 60px;
     width: 60px;
+    margin-right: 900px;
 }
