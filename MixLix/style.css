@@ -32,7 +32,8 @@ header {
 }
 
 .menu {
-    margin-top: 40px;
+    margin-top: 20px;
+   
 }
 
 .ef {
@@ -64,4 +65,71 @@ header {
 }
  footer {
     background-color:rgb(103, 12, 91) ;
+    color: white;
+    height: 280px;
  }
+
+.tituloFooter {
+    color: white;
+    margin-left: 10px;
+    padding-top: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+} 
+.icon{
+    height: 40px;
+}
+.iconIg {
+    height: 53px;
+}
+
+.iconFace {
+    height: 35px;
+}
+.efF {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.efF:hover {
+    font-weight: bolder;
+    transition: 0.3s ease-in-out;
+}
+
+.menu1footer, .partedois{
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 65px;
+}
+.menuFooter {
+    display: flex;
+    flex-direction: row;
+}
+
+nav.menuFooter {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 65px;
+}
+
+.partedois {
+    padding-top: 45px;
+}
+
+.logoFinal {
+    height: 50px;
+}
+
+.nome {
+    display: flex;
+    flex-direction: row;
+}
+
+.logoFinal {
+    margin-top: 40px;
+    margin-left: 30px;
+}
