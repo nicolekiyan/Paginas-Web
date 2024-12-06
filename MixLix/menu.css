@@ -239,6 +239,7 @@ background-color: #A2597A;
 
 .textinho {
     margin-top: 20px;
+    align-self: center;
 }
 .price {
     margin-left:50px; 
@@ -327,5 +328,57 @@ background-color: #A2597A;
 .tudo {
     display: flex;
     flex-direction: row;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
 }
+.imgGlaceDiv {
+    width: 300px;
+    border-radius: 3px;
+    margin-left: 90px;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+.imgGlaceDivD{
+    width: 300px;
+    border-radius: 3px;
+    margin-right: 90px;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+.tudinho {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.textinhoD{
+    margin-left: 40px;
+    align-self: center;
+}
+#lined {
+    height:2px;
+    width: 1350px;
+    background-color: #A2597A;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    margin-top: 10px;
+    opacity: 50%;
+    }
+
+    .favBlz {
+        margin-left:45px;
+        margin-bottom: 45px;
+    }
+    .sorvetes {
+        margin-bottom: 90px;
+    }
+
+    .hello {
+        color: white;
+        font-family: "carta";
+        font-size: 40px;
+        margin-top: 400px;
+        margin-right: 300px;
+    }

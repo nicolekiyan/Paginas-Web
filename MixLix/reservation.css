@@ -242,3 +242,12 @@ form {
     display: flex;
     flex-direction: column;
 }
+
+.oi {
+    width: 300px;
+    height: 30px;
+    border-radius: 2px;
+    background-color:#e6dbe6a2;
+    margin-top: 20px;
+    color: white;
+}
