@@ -221,6 +221,36 @@ background-color: #A2597A;
     font-weight: 500;
 }
 
-.descBl{
-    
+.descBl, .ing{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    margin-left:50px;
+    font-weight: 400;
+    margin-top: 25px;
+    letter-spacing: 1px;
+   line-height: 25px;
+
+   margin-right: 90px;
+}
+
+.textinho {
+    margin-top: 20px;
+}
+.price {
+    margin-left:50px; 
+    margin-top: 50px;
+    font-size: 26px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.preco {
+    font-size: 15px;
+    color: black;
+    font-style: italic;
+    align-self: center;
+    margin-right: 7px;
+}
+
+.quadri {
+  background-color: #A2597A;
+  height: 500px;
 }
