@@ -196,11 +196,56 @@ form {
     text-align: justify;
 }
 
-.imgSobre {
-    width: 30px;
-
-}
-
 .bord {
     font-weight: 700;
 }
+.sobres {
+    margin-top: 3px;
+    display: flex;
+    justify-content:right;
+    margin-left: 300px;
+    
+}
+.sobre {
+    display: flex;
+    flex-direction: row;
+}
+.detalhes {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin-top: 0;
+}
+.tituloo {
+    display: flex;
+    flex-direction: column;
+}
+.bemvindo {
+    display: flex;
+    flex-direction: column;
+}
+.half{
+    align-content: center;
+    justify-content: center;
+    justify-self: center;
+    background-image: url(img/collage.png);
+}
+.avaa {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-self: center;
+    margin-top: 40px;
+}
+.be {
+    color: #A2597A;
+    font-weight: bold;
+}
+#line {
+    height:3px;
+    width: 1518px;
+    background-color: #A2597A;
+    margin-top: 0.5px;
+    }
+
+    .avaAysha {
+        
+    }
