@@ -3,6 +3,10 @@
     margin: 0px;
     border: 0px;
 }
+@font-face {
+    font-family: carta;
+    src: url(font/WonderfulChristmas_PERSONAL_USE_ONLY.otf);
+}
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -277,4 +281,49 @@ background-color: #A2597A;
     transform: rotate(4deg); 
     margin-left: 45px;
     margin-top: 30px;
+}
+
+.tituloMenuReal {
+    font-size: 35px;
+    margin-top: 40px;
+    margin-left: 90px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+#you {
+    font-family: "carta";
+    color: black;
+    font-size: 50px;
+    margin-right: 6px;
+}
+.imgtorta {
+    height: 300px;
+}
+
+.valor{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Times New Roman', Times, serif;
+}
+.estrelinhas {
+    margin-right: 140px;
+    color: #A2597A;
+}
+.tituloTorta {
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 15px;
+}
+.caixa1 {
+    margin-left: 90px;
+}
+
+.caixa {
+    margin-left: 90px;
+}
+
+.tudo {
+    display: flex;
+    flex-direction: row;
 }
