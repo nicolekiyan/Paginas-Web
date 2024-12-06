@@ -182,12 +182,7 @@ form {
     margin-bottom: 40px;
     font-size: 20px;
 }
-.sobres {
-    height: 400px;
-    border-radius: 110px 0px 0px 0px;
-    margin-left: 840px;
-    width: 700px;
-}
+
 .aboutus {
     display: flex;
     flex-direction: row;
@@ -195,12 +190,15 @@ form {
 }
 
 .sobrenosTexto {
-    margin-left: 40px;
+    margin-left: 45px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 500px;
+    text-align: justify;
 }
 
 .imgSobre {
     width: 30px;
+
 }
 
 .bord {
