@@ -65,7 +65,7 @@ header {
     font-size: 35px;
     margin-top: 40px;
     margin-left: 90px;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
     font-weight: 400;
 }
 
@@ -194,4 +194,11 @@ form {
 height:2px;
 width: 1517px;
 background-color: #A2597A;
+}
+
+.bliD {
+    height: 450px;
+    margin-left: 90px;
+    margin-top: 10px;
+    border-radius: 3px;
 }
