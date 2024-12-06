@@ -299,6 +299,7 @@ background-color: #A2597A;
 }
 .imgtorta {
     height: 300px;
+    border-radius: 4px;
 }
 
 .valor{
@@ -326,4 +327,5 @@ background-color: #A2597A;
 .tudo {
     display: flex;
     flex-direction: row;
+    margin-bottom: 30px;
 }
