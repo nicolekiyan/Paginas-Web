@@ -251,6 +251,18 @@ background-color: #A2597A;
 }
 
 .quadri {
-  background-color: #A2597A;
+    background-color: #A2597A;
   height: 500px;
+  align-content: center;
+  align-items: center;
+}
+.poster1 {
+    height: 400px;
+    transform: rotate(5deg);
+    margin-left: 100px;
+}
+.poster2 {
+    height: 400px;
+    transform: rotate(-3deg);
+    margin-left: 45px;
 }
