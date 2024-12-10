@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: texto;
+    src: url(font/Stanberry.ttf);
+}
+@font-face {
+    font-family: titulo;
+    src: url(font/Komigo3D-Regular.ttf);
+}
+header {
+    align-items: center;
+    justify-self: center;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    margin: 0 30px;
+    
+}
+.logoM {
+    height: 100px;
+}
