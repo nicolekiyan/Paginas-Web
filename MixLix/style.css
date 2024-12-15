@@ -70,6 +70,7 @@ header {
     background-color:rgb(103, 12, 91) ;
     color: white;
     height: 280px;
+    margin-top: 30px;
  }
 
 .tituloFooter {
@@ -232,12 +233,7 @@ form {
     justify-self: center;
     background-image: url(img/collage.png);
 }
-.avaa {
-    font-size: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    justify-self: center;
-    margin-top: 40px;
-}
+
 .be {
     color: #A2597A;
     font-weight: bold;
@@ -264,3 +260,83 @@ form {
     #bemvindo {
         margin-bottom: 0.5px;
     }
+
+
+
+
+
+
+
+
+
+    h2 {
+        margin: 30px 0 20px;
+        font-size: 1.8rem;
+        color: #111;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        justify-self: center;
+        margin-bottom: 20px;
+    }
+    
+    .testimonios {
+        background-color: #fff;
+        padding: 20px 10px;
+        margin: 0 auto;
+    }
+    
+    .testimonios-contenedor {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    
+    .testimonio {
+        background-color: #f2f2f2;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        max-width: 600px;
+        transition: all 0.3s ease;
+    }
+    
+    .testimonio.activo {
+        flex: 1;
+        background-color: #fff;
+        border: 2px solid #A2597A;
+        transform: scale(1.05);
+        margin: 0 15px 0 15px;
+    }
+    
+    .caja-secundaria {
+        opacity: 0.6;
+        max-width: 400px;
+    }
+    
+    .comentario, .comentario-secundario {
+        font-size: 1rem;
+        line-height: 1.6;
+        margin: 0 0 10px;
+    }
+    
+    .cliente, .cliente-secundario {
+        font-weight: bold;
+        font-size: 0.9rem;
+        color: #555;
+    }
+    
+    .estrellas {
+        color:#A2597A;
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+    .comentario {
+        width: 400px;
+    }
+    .roxinho {
+        color: #A2597A;
+    }
+    
+ 
