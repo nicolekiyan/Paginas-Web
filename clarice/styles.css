@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Georgia', serif;
+}
+
+body {
+    background-color: #fdfbf7;
+    color: #333;
+    line-height: 1.6;
+}
+
+header.topo {
+    background-color: #002855;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header.topo h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.banner {
+    background: url('clarice-banner.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.texto-banner h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.texto-banner p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.botao {
+    display: inline-block;
+    background-color: #e07a5f;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #002855;
+}
+
+.conteudo-curiosidades {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.lista-livros p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.links a {
+    display: block;
+    margin: 10px 0;
+    color: #e07a5f;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #002855;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
