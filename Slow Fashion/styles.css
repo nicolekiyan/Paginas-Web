@@ -5,7 +5,15 @@
     font-family: 'Georgia', serif;
 }
 
-
+.cover {
+    display: flex;
+    justify-content: space-between;
+    background-image: url(img/cover.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+    color: wheat;
+}
 
 footer {
     background-color: #002855;
