@@ -12,7 +12,12 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 750px;
-    color: wheat;
+    color: white;
+}
+.textCabecalho {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
 }
 
 footer {
