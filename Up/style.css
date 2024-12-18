@@ -46,6 +46,7 @@ a{
     flex-direction: column;
     justify-content: space-between; /* Distribui os elementos igualmente */
     gap: 10px;
+    margin-bottom: 40px;
 }
 
 .card-imagem {
@@ -82,4 +83,10 @@ button {
 
 button:hover {
     background-color: #444;
+}
+.TITLE {
+    font-family: "titulo";
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-left: 150px;
 }
