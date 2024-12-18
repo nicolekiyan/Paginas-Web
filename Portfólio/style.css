@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: ti;
+    src: url(font/LastChristmas_PERSONAL_USE_ONLY.otf);
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.h1{
+    font-family: "ti";
+    letter-spacing: 4px;
+    font-size: 100px;
+    margin-top: 3px;
+} 
+.sub{
+    margin-bottom: 2px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 20px;
+}
+
+.header, footer {
+    background-color: #f5f3ef;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.nome {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    height: 500px;
+}
+
+.img-bg img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.nome-content {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.nome-content h1 {
+    font-size: 48px;
+    font-weight: bold;
+    text-shadow: 3px -1px 2px rgba(0,0,0,0.6);
+}
+
+.nome-content h1 span {
+    font-size: 14px;
+    display: block;
+    letter-spacing: 2px;
+}
+
+
+
+.hobby {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.hobby h2 {
+    font-size: 24px;
+    max-width: 700px;
+    margin: 0 auto;
+    font-weight: normal;
+}
+
+.hobby em {
+    font-style: italic;
+    color: #666;
+}
+
+.hobbie {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.hobbie h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card p {
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+.sobre {
+    background-color: #2d2d2d;
+    color: #fff;
+    padding: 40px 20px;
+}
+
+.sobre-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.sobre-text {
+    max-width: 500px;
+}
+
+.sobre-text h3 {
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #aaa;
+    text-transform: uppercase;
+}
+
+.sobre-text h2 {
+    font-size: 28px;
+    margin: 10px 0;
+}
+
+.sobre-text em {
+    font-style: italic;
+    color: #ccc;
+}
+
+.sobre-text p {
+    font-size: 14px;
+    color: #ddd;
+}
+
+.sobre-image img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.quadri {
+    height: 600px;
+  align-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.poster1 {
+    height: 400px;
+    transform: rotate(5deg);
+    margin-left: 100px;
+}
+.poster2 {
+    height: 400px;
+    transform: rotate(-3deg);
+    margin-left: 45px;
+}
+.poster3 {
+    height: 400px;
+    transform: rotate(-4deg); 
+    margin-left: 45px;
+}
+
+.poster4 {
+    height: 400px;
+    transform: rotate(4deg); 
+    margin-left: 45px;
+    margin-top: 30px;
+}
+
+.lu{
+    padding-top: 50px;
+font-family: "ti";
+font-size: 60px;
+justify-self: center;
+color: #f5f3ef;
+
+}
+span {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    color: #f5f3ef;
+}
+.luu {
+    margin-top: 100px;
+}
+
+.luu, .quadri {
+    background-color: rgb(80, 59, 59);
+}
+
+.filmeTexto {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    justify-self: center;
+}
+.oi {
+    font-family: "ti";
+    font-size: 30px;
+    justify-self: center;
+    font-weight: 300;
+    color: #2d2d2d;
+}
+.file {
+    justify-items: center;
+    margin-left: 100px;}
+
+    h6 {
+        font-size: 30px;
+        justify-self: center;
+    }
